@@ -13,6 +13,16 @@ namespace StackQueueUsingLinkedList
             stack.Push(56);
             Console.WriteLine("--------stack elements--------");
             stack.Show();
+            Console.WriteLine();
+            int count = stack.Size();
+            while (count != 0)
+            {
+                stack.Peek();
+                stack.Pop();
+                Console.WriteLine("--------stack elements after Pop()--------");
+                stack.Show();
+                count = stack.Size();
+            }
         }
     }
 }

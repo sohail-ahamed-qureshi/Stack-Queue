@@ -63,7 +63,7 @@ namespace StackQueueUsingLinkedList
             {
                 Console.WriteLine("No elements to remove.");
             }
-            if (this.top.next != null)
+            if (this.top != null)
             {
                 Console.WriteLine($"popped element: {this.top.data}");
                 this.top = this.top.next;
@@ -96,15 +96,17 @@ namespace StackQueueUsingLinkedList
         /// <summary>
         /// method to display the size of stack.
         /// </summary>
-        public void Size()
+        public int Size()
         {
             int count = 0;
-            while (top != null)
+            Node n = top;
+            while (n != null)
             {
                 count++;
-                top = top.next;
+                n = n.next;
             }
             Console.WriteLine($"size of stack: {count}");
+            return count;
         }
     }
 }
