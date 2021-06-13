@@ -47,7 +47,7 @@ namespace StackQueueUsingLinkedList
         /// </summary>
         public void Show()
         {
-            Node n = top;
+            Node n = this.top;
             while (n != null)
             {
                 Console.WriteLine(n.data);

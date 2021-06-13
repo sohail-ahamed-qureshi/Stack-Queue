@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackQueueUsingLinkedList", "StackQueueUsingLinkedList.csproj", "{2AE4C5E9-7A57-42DD-8C0C-B1D1090BA464}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackQueueUsingLinkedList", "StackQueueUsingLinkedList.csproj", "{2AE4C5E9-7A57-42DD-8C0C-B1D1090BA464}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find-Max-Program", "..\..\..\Find-Max-Program\Find-Max-Program\Find-Max-Program.csproj", "{64606DB9-4A03-49E6-8E84-9BED56D2AB66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NunitFindMaxNumber.Test", "..\..\..\NunitFindMaxNumber.Test\NunitFindMaxNumber.Test.csproj", "{285373E5-3183-45BA-BDD2-D24D85CFD6EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linkli", "..\..\..\Linkli\Implementing-of-LinkedList\Linkli\Linkli.csproj", "{5861241D-4574-445C-A4BB-D075060E14F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{2AE4C5E9-7A57-42DD-8C0C-B1D1090BA464}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AE4C5E9-7A57-42DD-8C0C-B1D1090BA464}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AE4C5E9-7A57-42DD-8C0C-B1D1090BA464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64606DB9-4A03-49E6-8E84-9BED56D2AB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64606DB9-4A03-49E6-8E84-9BED56D2AB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64606DB9-4A03-49E6-8E84-9BED56D2AB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64606DB9-4A03-49E6-8E84-9BED56D2AB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285373E5-3183-45BA-BDD2-D24D85CFD6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285373E5-3183-45BA-BDD2-D24D85CFD6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285373E5-3183-45BA-BDD2-D24D85CFD6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285373E5-3183-45BA-BDD2-D24D85CFD6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5861241D-4574-445C-A4BB-D075060E14F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5861241D-4574-445C-A4BB-D075060E14F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5861241D-4574-445C-A4BB-D075060E14F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5861241D-4574-445C-A4BB-D075060E14F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
