@@ -13,7 +13,16 @@ namespace StackQueueUsingLinkedList
             queue.Enqueue(70);
             Console.WriteLine("------elements in queue-------");
             queue.ShowQue();
-           
+            queue.Dequeue();
+            Console.WriteLine("------elements in queue after Dequeue");
+            queue.ShowQue();
+            queue.Dequeue();
+            Console.WriteLine("------elements in queue after Dequeue");
+            queue.ShowQue();
+            queue.Dequeue();
+            Console.WriteLine("------elements in queue after Dequeue");
+            queue.ShowQue();
+
         }
     }
 }

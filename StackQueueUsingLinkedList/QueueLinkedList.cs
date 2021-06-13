@@ -55,18 +55,24 @@ namespace StackQueueUsingLinkedList
             }
            if(Size() == 1)
             {
+                Console.WriteLine($"Dequeued element: {top.data}");
                 this.top = null;
             }
            if(Size() > 1)
             {
                 NodeQ n = this.top;
                 this.top = n.next;
+                Console.WriteLine($"Dequeued element: {n.data}");
             }
         }
 
         internal void ShowQue()
         {
             NodeQ n = this.top;
+            if(isEmpty() == true)
+            {
+                Console.WriteLine("Queue Empty!!!");
+            }
             while(n != null)
             {
                 Console.WriteLine(n.data);
